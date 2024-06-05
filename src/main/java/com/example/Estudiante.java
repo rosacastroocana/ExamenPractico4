@@ -1,11 +1,12 @@
 package com.example;
 
-import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.experimental.SuperBuilder;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,8 +16,9 @@ import lombok.ToString;
 @EqualsAndHashCode (callSuper = true)
 
 
-public class Empleado extends Persona {
+public class Estudiante extends Persona {
 	
-	private Dpto departamento;
-	private double salario;	
+	private Facultad facultad;
+	private int totalAsignaturasMatriculadas;
+
 }
