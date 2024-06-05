@@ -31,5 +31,20 @@ public class App {
     		.totalAsignaturasMatriculadas(2)    		
     		.build()
     		};
-}
+
+//Utilizando una sentencia for mejorada, recorrer el array creado 
+//en la rama_4 para crear un nuevo array con los estudiantes del sexo 
+//MUJER que tengan un totalAsignaturasMatriculadas igual o
+// superior a la media de todas las facultades.
+
+    
+    for (Object object : empleadosycoches) {
+    
+    
+    
+    
+    
+    
+    }	
+    }
 }
